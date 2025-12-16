@@ -1,12 +1,13 @@
 import com.BridgeLabz.Sorting.BubbleSort;
+import com.BridgeLabz.Sorting.InsertionSort;
 
 public class Main {
     public static void main(String[] args) {
 
-        Integer [] ar ={1,20,4,9,7};
+        String [] ar ={"1","20","8","6","11"};
 
-        BubbleSort.sort(ar);
-        for(int i:ar){
+        InsertionSort.sort(ar);
+        for(String i:ar){
             System.out.println(i+" ");
         }
     }
