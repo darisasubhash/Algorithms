@@ -1,11 +1,12 @@
 import com.BridgeLabz.Sorting.BubbleSort;
+import com.BridgeLabz.Sorting.SelectionSort;
 
 public class Main {
     public static void main(String[] args) {
 
-        Integer [] ar ={1,20,4,9,7};
+        Integer [] ar ={1,2,5,8,3,6};
 
-        BubbleSort.sort(ar);
+        SelectionSort.sort(ar);
         for(int i:ar){
             System.out.println(i+" ");
         }
