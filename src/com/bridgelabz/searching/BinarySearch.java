@@ -1,4 +1,4 @@
-package com.BridgeLabz.Searching;
+package com.bridgelabz.searching;
 
 public class BinarySearch {
     public static <T extends Comparable<T>> int search(T []ar,T value){

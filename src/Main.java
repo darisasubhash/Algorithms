@@ -1,5 +1,5 @@
 
-import com.BridgeLabz.Sorting.QuickSort;
+import com.bridgelabz.sorting.QuickSort;
 
 
 public class Main {
