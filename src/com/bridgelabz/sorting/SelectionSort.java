@@ -1,4 +1,4 @@
-package com.BridgeLabz.Sorting;
+package com.bridgelabz.sorting;
 
 public class SelectionSort {
     public static <T extends Comparable<T>> void sort(T ar[]){

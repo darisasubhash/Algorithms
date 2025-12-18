@@ -1,14 +1,16 @@
 
-import com.BridgeLabz.Searching.LinearSearch;
-import com.BridgeLabz.Sorting.SelectionSort;
+import com.bridgelabz.sorting.QuickSort;
 
 
 public class Main {
     public static void main(String[] args) {
 
-        Integer[] ar = {1, 2, 5, 8, 3, 6};
+        Integer [] ar = {1, 2, 5, 8, 3, 6};
+        QuickSort.sort(ar,0,ar.length-1);
 
-        int a=LinearSearch.search(ar, 8);
-        System.out.println(a);
+
+        for(int a:ar){
+            System.out.println(a);
+        }
     }
 }

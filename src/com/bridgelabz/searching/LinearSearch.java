@@ -1,4 +1,4 @@
-package com.BridgeLabz.Searching;
+package com.bridgelabz.searching;
 
 public class LinearSearch {
     public static <T> int search(T [] ar,T value){
